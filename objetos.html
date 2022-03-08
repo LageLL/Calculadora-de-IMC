@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "container">
+        <div class="centro">
+            <div class="conteudoesquerda">
+                <h2>O que é IMC?</h2>
+                </br>   
+                <p>A classificação do índice de massa corporal (IMC),
+                pode ajudar a identificar obesidade ou desnutrição em crianças,
+                adolescentes, adultos e idosos.</p>
+                </br>
+                <p>Além de saber qual é o seu IMC, essa calculadora também indica qual 
+                deve ser o seu peso idealpara alcançar a sua melhor forma, 
+                e assim melhorar sua qualidade de vida, garantindo o seu bem estar.</p>
+            </div>
+            <form>
+            <div class="conteudodireita">
+                <h2>Adicione seus dados para obter o seu IMC</h2>
+                
+                    <input id="nome" class="input" placeholder="nome" name="nome" type="text">
+                    <input id="idade" class="input" placeholder="idade" name="idade" type="number">
+                    <input id="peso" class="input" placeholder="peso" name="peso" type="number">
+                    <input id="altura" class="input" placeholder="altura" name="altura" type="number">
+                    <div class="sex">
+                        <h4 class="titulo4">Sexo</h4>
+                        <label class="radio">
+                            <input name="radio" type="radio" checked>
+                            <span>Masculino</span>
+                          </label>
+                          <label class="radio">
+                            <input name="radio" type="radio">
+                            <span>Feminino</span>
+                          </label>
+                          <button type="submit" onclick="funcao">Calcular</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script href="js.js"></script>
+</html>
